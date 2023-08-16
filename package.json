@@ -1,0 +1,29 @@
+{
+  "name": "api-learnhub-fastiify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "start": "node build/server.js",
+    "build": "tsup src --out-dir build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "5.1.1",
+    "bcrypt": "^5.1.0",
+    "dotenv": "16.0.3",
+    "fastify": "^4.21.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/node": "^20.5.0",
+    "prisma": "^5.1.1",
+    "tsup": "^7.2.0",
+    "tsx": "^3.12.7",
+    "typescript": "^5.1.6"
+  }
+}
